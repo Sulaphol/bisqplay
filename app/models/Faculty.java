@@ -73,7 +73,4 @@ public class Faculty extends Model{
     public static void delete(Faculty faculty){
         faculty.delete();
     }
-
-
-
 }

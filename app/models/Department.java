@@ -82,8 +82,8 @@ public class Department extends Model {
         this.faculty = faculty;
     }
 
-    public static Model.Finder<String, Department> find =
-            new Model.Finder<String, Department>(String.class, Department.class);
+    public static Finder<String, Department> find =
+            new Finder<String, Department>(String.class, Department.class);
 
     public static List<Department> list(){
         return find.all();
